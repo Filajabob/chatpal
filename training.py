@@ -12,7 +12,7 @@ from tensorflow.keras.optimizers import SGD
 
 lemmatizer = WordNetLemmatizer()
 
-with open("intents.json", 'r') as f:
+with open("assets/intents.json", 'r') as f:
     intents = json.load(f)
 
 words = []
@@ -34,8 +34,8 @@ words = sorted(set(words))
 
 classes = sorted(set(classes))
 
-pickle.dump(words, open("words.pkl", "wb"))
-pickle.dump(classes, open("classes.pkl", "wb"))
+pickle.dump(words, open("assets/words.pkl", "wb"))
+pickle.dump(classes, open("assets/classes.pkl", "wb"))
 
 training = []
 output_empty = [0] * len(classes)

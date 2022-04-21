@@ -19,11 +19,11 @@ ERROR_THRESHOLD = 0.25
 
 lemmatizer = WordNetLemmatizer()
 
-with open("intents.json", 'r') as f:
+with open("assets/intents.json", 'r') as f:
     intents = json.load(f)
 
-words = pickle.load(open('words.pkl', 'rb'))
-classes = pickle.load(open('classes.pkl', 'rb'))
+words = pickle.load(open('assets/words.pkl', 'rb'))
+classes = pickle.load(open('assets/classes.pkl', 'rb'))
 model = load_model('chatbotmodel.h5')
 
 
