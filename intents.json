@@ -1,0 +1,32 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["hi", "hello", "how are you", "whats up"],
+            "responses": ["Hi!", "Heeeello!", "Good day!", "time to chat with a stupid human"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["bye", "goodbye", "cya"],
+            "responses": ["Goodbye!", "leave"],
+            "action": "quit"
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["thanks", "thank you"],
+            "responses": ["Your welcome! sort of", "My pleasure!", "i am so great aren't i?"]
+        },
+        {
+            "tag": "joke",
+            "patterns": ["tell me a joke", "i want a joke", "joke"],
+            "responses": ["You want a joke?", "Here's a joke:", "Joke time!", "Here's a fun one:", "Here's a good one:"],
+            "action": "joke"
+        },
+        {
+            "tag": "news",
+            "patterns": ["todays news", "what is todays news", "news", "whats going on right now", "whats going on"],
+            "responses": ["Loading news..", "This totally won't be depressing...", "Here's what the world is up to:"],
+            "action": "news"
+        }
+    ]
+}
