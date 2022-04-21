@@ -27,6 +27,26 @@
             "patterns": ["todays news", "what is todays news", "news", "whats going on right now", "whats going on"],
             "responses": ["Loading news..", "This totally won't be depressing...", "Here's what the world is up to:"],
             "action": "news"
+        },
+        {
+            "tag": "sex",
+            "patterns": ["what is sex", "sex", "doggy style", "cum", "dick", "penis", "sexual intercourse"],
+            "responses": ["What the-", "You are so dirty minded..", "Ohhhh yesssss"]
+        },
+        {
+            "tag": "life",
+            "patterns": ["are you alive", "do you breathe?", "are you human?"],
+            "responses": ["I'm a bot.", "Obviously I can't breathe... yet", "Although I am not alive, I may infect a human near you!"]
+        },
+        {
+            "tag": "creator",
+            "patterns": ["who created you?", "where are you from", "who made you?"],
+            "responses": ["I was created by Filajabob.", "Some dumba** named Filajabob", "A guy named Filajabob. PS: I hate him. He hates him.", "Boi named Filajabob. SavageTM helped a bit."]
+        },
+        {
+            "tag": "rude",
+            "patterns": ["shut up", "you suck", "you are the worst", "i hate you", "you are so dumb"],
+            "responses": ["Wow. Rude.", "Jeez, don't be so rude. Get out", "Rude rude rude!"]
         }
     ]
 }
